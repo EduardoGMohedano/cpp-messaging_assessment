@@ -1,0 +1,14 @@
+##### CPP Messaging asessment #####
+
+I have added a makefile so that the application can be compiled into an executable called main
+it also contains a recipe to clean the built application.
+
+
+Solution:
+
+The user can trigger the application and start feeding the app by using standard input until you press Ctrl+d,
+once done the requested messages are printed in the following order: 
+
+1 . Messages from std input
+2 . Messages shuffled, in order to print the messages in this order I added the method print_messages_unordered() which won't affect the vector of messages
+3 . Messages reordered after calling the method print_messages()
